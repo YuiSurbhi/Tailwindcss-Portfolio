@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-gray-800 overflow-x-hidden">
+    <nav class="flex justify-center items-center text-sm relative">
+        <div class="fixed top-5 z-[99999]">
+            <div class="border border-gray-400 rounded-full flex p-[1px] backdrop-blur-lg">
+                <a href="#home" class="px-4 py-1 text-neutral-200 rounded-full hover:bg-gray-200 hover:text-black transition">Home</a>
+                <a href="#projects" class="px-4 py-1 text-neutral-200 rounded-full hover:bg-gray-200 hover:text-black transition">Projects</a>
+                <a href="#about" class="px-4 py-1 text-neutral-200 rounded-full hover:bg-gray-200 hover:text-black transition">About</a>
+                <a href="#contact" class="px-4 py-1 text-neutral-200 rounded-full hover:bg-gray-200 hover:text-black transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section 
+      class="min-h-[700px] max-w-6xl mx-auto grid place-content-center text-white mt-28" 
+      id="home"
+    >
+        <div class="flex flex-col items-center">
+            <img src="../images/computer.gif" alt="">
+            <span class="leading-none border border-gray-600 rounded px-3 py-1 text-sm text-neutral-200 bg-slate-900 flex items-center gap-2">
+               <div class="w-[10px] h-[10px] bg-green-500 rounded-full"></div>
+               Available for new Projects
+            </span>
+        </div>
+        <div class="text-center my-5 space-y-3">
+            <h1 class="text-5xl font-bold bg-gradient-to-t from-green-700 to-green-50 bg-clip-text text-transparent uppercase pb-3">
+                Front-End <br>developer
+            </h1>
+            <p class="max-w-md text-neutral-400">
+                I'm eager to apply my front-end skills to build responsive, scalable, and intuitive user interfaces. Excited to deepen my understanding of user needs, I'm ready to contribute as a full-time Front-End Developer, creating exceptional web experiences with modern technologies.
+            </p>
+        </div>
+        <div class="flex items-center justify-center gap-2">
+            <a href="https://github.com/YuiSurbhi" class="px-4 py-2 border rounded-lg border-neutral-500 text-neutral-200 hover:bg-neutral-200 hover:text-black">
+                Explore my work   
+            </a>
+            <a href="https://www.linkedin.com/in/surbhiverma03/" class="px-4 py-2 rounded-lg bg-neutral-200 text-black hover:text-neutral-200 hover:bg-gray-600">
+                👋🏼 Let's connect
+            </a>
+        </div>
+    </section>
+
+    <section 
+      class="max-w-5xl mx-auto px-4"
+      id="projects"
+    >
+        <div class="text-center space-y-3">
+            <h3 class="uppercase text-sm font-bold bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline">
+                Real World Results
+            </h3>
+
+            <h2 class="text-5xl font-bold bg-gradient-to-b from-neutral-50 to-neutral-500 text-transparent bg-clip-text">
+                Featured Projects
+            </h2>
+
+            <p class="text-neutral-400">see how I transform concepts into engaging digital experiences.</p>
+        </div>
+        
+        <main class="grid place-content-center gap-14 mt-10">
+            <div class="flex flex-col md:flex-row md:gap-5 border bg-gray-800 rounded-2xl px-8 pt-8 md:pb-8 overflow-hidden mx-w[300px] md:max-w-[800px]">
+                <div class="space-y-5">
+                    <div class="border-b border-gray-400 pb-3">
+                        <h3 class="uppercase text-sm bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline tracking-widest">
+                            metagame
+                        </h3>
+                        <h2 class="text-4xl font-bold text-neutral-50 uppercase">
+                            zentry
+                        </h2>
+                    </div>
+                    <ul class="text-neutral-500">
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>Metagame Website</span></li>
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>React and Tailwindcss</span></li>
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>Consistent UI</span></li>
+                    </ul>
+                    <a href="https://zentry-awward-win-website.vercel.app/" class="px-4 py-2 w-full md:w-auto border rounded-lg flex justify-center items-center gap-1 bg-white">
+                        Visit Live Site
+                        <img src="../icons/arrow-up-right.svg" alt="">
+                    </a>
+                </div>
+                <!-- Mobile Image (Ensured Fit) -->
+                <img 
+                  src="../images/zentry.PNG" 
+                  alt="" 
+                  class="rounded-2xl mt-5 mb-2 h-[180px] w-full object-cover md:hidden"
+                >
+                <!-- Desktop Image (Ensured Fit) -->
+                <img 
+                  src="../images/zentry.PNG" 
+                  alt="" 
+                  class="mt-5 hidden md:block md:ml-auto h-[250px] w-[505px] object-cover rounded-lg">
+            </div>
+        </main>
+
+        <main class="grid place-content-center gap-14 mt-10">
+            <div class="flex flex-col md:flex-row md:gap-5 border bg-gray-800 rounded-2xl px-8 pt-8 md:pb-8 overflow-hidden mx-w[300px] md:max-w-[800px]">
+                <div class="space-y-5">
+                    <div class="border-b border-gray-400 pb-3">
+                        <h3 class="uppercase text-sm bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline tracking-widest">
+                            filee cards
+                        </h3>
+                        <h2 class="text-4xl font-bold text-neutral-50 uppercase">
+                            hub
+                        </h2>
+                    </div>
+                    <ul class="text-neutral-500">
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>Draggable File Cards</span></li>
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>React and Tailwindcss</span></li>
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>Responsive Design</span></li>
+                    </ul>
+                    <a href="https://hub-seven-gamma.vercel.app/" class="px-4 py-2 w-full md:w-auto border rounded-lg flex justify-center items-center gap-1 bg-white">
+                        Visit Live Site
+                        <img src="../icons/arrow-up-right.svg" alt="">
+                    </a>
+                </div>
+                <img 
+                  src="../images/hub.PNG" 
+                  alt="" 
+                  class="rounded-2xl mt-5 mb-2 h-[180px] w-full object-cover md:hidden"
+                >
+                <img 
+                  src="../images/hub.PNG" 
+                  alt="" 
+                  class="mt-5 hidden md:block md:ml-auto h-[250px] w-[505px] object-cover rounded-lg">
+            </div>
+        </main>
+
+        <main class="grid place-content-center gap-14 mt-10">
+            <div class="flex flex-col md:flex-row md:gap-5 border bg-gray-800 rounded-2xl px-8 pt-8 md:pb-8 overflow-hidden mx-w[300px] md:max-w-[800px]">
+                <div class="space-y-5">
+                    <div class="border-b border-gray-400 pb-3">
+                        <h3 class="uppercase text-sm bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline tracking-widest">
+                            designs
+                        </h3>
+                        <h2 class="text-4xl font-bold text-neutral-50 uppercase">
+                            Ochi
+                        </h2>
+                    </div>
+                    <ul class="text-neutral-500">
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>Presentation Design</span></li>
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>React Frame Motion</span></li>
+                        <li class="flex items-center gap-1">
+                            <img src="../icons/check-circle.gif" class="size-4" alt="">
+                            <span>Production-Ready</span></li>
+                    </ul>
+                    <a href="https://hub-seven-gamma.vercel.app/" class="px-4 py-2 w-full md:w-auto border rounded-lg flex justify-center items-center gap-1 bg-white">
+                        Visit Live Site
+                        <img src="../icons/arrow-up-right.svg" alt="">
+                    </a>
+                </div>
+                <img 
+                  src="../images/ochi.PNG" 
+                  alt="" 
+                  class="rounded-2xl mt-5 mb-2 h-[180px] w-full object-cover md:hidden"
+                >
+                <img 
+                  src="../images/ochi.PNG" 
+                  alt="" 
+                  class="mt-5 hidden md:block md:ml-auto h-[250px] w-[505px] object-cover rounded-lg">
+            </div>
+        </main>
+    </section>
+
+    <section class="mt-20 -rotate-[2deg]">
+        <marquee class="bg-gradient-to-l from-emerald-300 to-cyan-300 py-6">
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+
+            <span class="text-md font-bold inline-flex items-center gap-2">
+                SECURE
+                <img src="../icons/star.svg" alt="star">
+            </span>
+        </marquee>
+    </section>
+
+    <section 
+      class="mt-12 px-12 max-w-6xl mx-auto" 
+      id="about">
+        <div class="text-center space-y-3">
+            <h3 class="uppercase text-sm font-bold bg-gradient-to-r from-emerald-300 to-cyan-500 text-transparent bg-clip-text inline">
+                About me
+            </h3>
+            <h2 class="text-5xl font-bold bg-gradient-to-b from-neutral-50 from-40% to-neutral-500 text-transparent bg-clip-text">
+                A sneak peak at what I do
+            </h2>
+            <p class="text-neutral-400">
+                learn more about who I am, what I do, and what I to table.
+            </p>
+        </div>
+        <main class="mt-10">
+            <div class="border border-gray-600 rounded-2xl p-5 flex flex-col md:flex-row items-center md:items-start gap-5">
+                <!-- Left Image -->
+                <img src="../images/about-me.svg" alt="about me" 
+                     class="rounded-lg w-full md:w-[480px]">
+        
+                <!-- Right Text -->
+                <div class="w-full mx-auto max-w-[950px] md:mt-20">
+                    <h3 class="text-2xl text-neutral-200 mb-1">
+                        Namaste!
+                    </h3>
+                    <p class="text-lg text-gray-400">
+                        I'm Surbhi Verma, currently pursuing a BCA degree. <br>
+                        I discovered my love for web development while <br> browsing through Awwwards. <br>
+                        Inspired by the innovative and visually stunning <br> websites featured there, 
+                        I decided to pursue a career <br> in front-end development. Join me on my journey of <br> learning and growing!
+                    </p>    
+                </div>
+            </div>
+        </main>
+        
+        <main class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl px-5 pt-5 overflow-hidden">
+                <div class="space-y-2">
+                    <div class="flex items-center gap-2">
+                        <img 
+                          src="../icons/star.svg" 
+                          alt=""
+                          class="rounded-full bg-emerald-300">
+                          <h3 class="text-lg font-bold text-white">
+                            My Reads
+                        </h3>
+                    </div>
+                    <p class="text-sm text-gray-400">
+                        Explore the books shaping my prospectives.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+                    <img 
+                      src="../images/book-cover.jpg" 
+                      alt="" 
+                      class="h-44 mt-2 rounded-2xl mb-2">
+                </div>
+            </div>
+
+            <div class="col-span-2 border border-gray-600 bg-gray-800 rounded-2xl p-5 overflow-hidden">
+                <div class="space-y-2">
+                    <div class="flex items-center gap-2">
+                        <img 
+                          src="../icons/star.svg" 
+                          class="rounded-full bg-emerald-300"
+                          alt=""
+                        >
+                        <h3 class="text-lg font-bold text-white">
+                            My Toolbox
+                        </h3>
+                    </div>
+                    <p class="text-sm text-gray-400">
+                        Explore the technologies and tools I use to craft exceptional digital experiences.
+                    </p>
+                </div>
+                <ul class="grid grid-cols-3 md:grid-cols-5 text-white text-sm gap-2 mt-5">
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">
+                        HTML
+                    </li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">
+                        CSS
+                    </li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">
+                        Javascript
+                    </li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">
+                        React
+                    </li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">
+                        Tailwindcss
+                    </li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">
+                        Python
+                    </li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">
+                        Github
+                    </li>
+                    <li class="border border-gray-600 p-2 rounded-lg bg-gray-900">
+                        Pygame
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-span-2 border border-gray-600 bg-gray-800 rounded-2xl p-5 overflow-hidden">
+                <div class="space-y-2">
+                    <div class="flex items-center gap-2">
+                        <img 
+                          src="../icons/star.svg" 
+                          class="rounded-full bg-emerald-300" 
+                          alt=""
+                        >
+                        <h3 class="text-lg font-bold text-white">
+                            Beyond the code
+                        </h3>
+                    </div>
+                    <p class="text-sm text-gray-400">
+                        Explore the book shaping my prospectives.
+                    </p>
+                </div>
+                <ul class="grid grid-cols-2 md:grid-cols-5 text-white text-sm gap-2 mt-5">
+                    <li class=" border border-gray-600 rounded-lg shadow-xl shadow-emerald-300 p-2 flex justify-center items-center">
+                        Photography
+                    </li>
+                    <li class="border border-gray-600 rounded-lg shadow-xl shadow-emerald-300 p-2 flex justify-center items-center">
+                        Poetry
+                    </li>
+                    <li class="border border-gray-600 rounded-lg shadow-xl shadow-emerald-300 p-2 flex justify-center items-center">
+                        Hiking Bikes
+                    </li>
+                </ul>
+            </div>
+
+            <div class="border border-gray-600 bg-gray-800 rounded-2xl overflow-hidden">
+                <img 
+                  src="../images/cover-girl.svg" 
+                  class="w-full h-full object-cover" 
+                  alt="">
+            </div>
+        <main>
+    </section>
+
+    <section 
+      class="max-w-6xl mx-auto p-12"
+      id="contact">
+        <main class="p-5 bg-gray-700 rounded-xl flex flex-col md:flex-row md:justify-between md:items-center">
+            <!-- Left Side - Form -->
+            <form class="flex flex-col space-y-4 w-full md:w-2/3">
+                <input type="text" placeholder="Your Name" class="p-3 rounded-lg bg-gray-800 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-emerald-400" required>
+    
+                <input type="email" placeholder="Your Email" class="p-3 rounded-lg bg-gray-800 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-emerald-400" required>
+    
+                <textarea placeholder="Your Message" class="p-3 rounded-lg bg-gray-800 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-emerald-400"></textarea>
+                
+                <button 
+                  type="button" 
+                  class="p-3 bg-emerald-700 text-white font-bold rounded-lg hover:bg-emerald-400 transition duration-300"
+                  onclick=""
+                >
+                  Send
+                </button>
+
+                
+            </form>
+    
+            <!-- Right Side - Contact Info & Image -->
+            <div class="mt-6 md:mt-0 md:w-1/3 text-center md:text-right">
+                <h3 class="text-2xl font-bold text-white text-center">Contact Me</h3>
+                <img src="../images/contact-me.svg" alt="Contact Image" class="mt-4 rounded-lg w-full">
+            </div>
+        </main>
+    </section>
+    
+    <footer class="w-full px-12 py-5 border-t border-gray-600">
+        <main class="flex justify-between items-center text-gray-400 text-sm">
+            <p class="uppercase">&copy; 2025. Made with ❤️ by Surbhi Verma</p>
+            <ul class="flex items-center gap-3">
+                <!-- Instagram -->
+                <li>
+                    <a href="https://www.instagram.com/yuisurbhi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg class="w-6 h-6 fill-white hover:fill-gray-400 transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0-2A7.5 7.5 0 0 0 0 7.5v9A7.5 7.5 0 0 0 7.5 24h9A7.5 7.5 0 0 0 24 16.5v-9A7.5 7.5 0 0 0 16.5 0h-9zM12 6.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 9A3.5 3.5 0 1 0 12 9a3.5 3.5 0 0 0 0 7zm6-10a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z"/>
+                        </svg>
+                    </a>
+                </li>
+                <!-- Twitter -->
+                <li>
+                    <a href="https://x.com/_surbhi_verma" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <svg class="w-6 h-6 fill-white hover:fill-gray-400 transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M23.4 4.6a9.8 9.8 0 0 1-2.8.8 4.8 4.8 0 0 0 2.1-2.7 9.8 9.8 0 0 1-3 1.2A4.8 4.8 0 0 0 11.8 8a13.6 13.6 0 0 1-9.9-5 4.8 4.8 0 0 0 1.5 6.5 4.8 4.8 0 0 1-2.2-.6v.1a4.8 4.8 0 0 0 3.8 4.7 4.8 4.8 0 0 1-2.2.1 4.8 4.8 0 0 0 4.5 3.3A9.7 9.7 0 0 1 1 19.5a13.6 13.6 0 0 0 7.4 2.2c8.9 0 13.8-7.4 13.8-13.8v-.6a9.8 9.8 0 0 0 2.4-2.5z"/>
+                        </svg>
+                    </a>
+                </li>
+                <!-- GitHub -->
+                <li>
+                    <a href="https://github.com/YuiSurbhi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg class="w-6 h-6 fill-white hover:fill-gray-400 transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5V20.6c-3.3.7-4-1.6-4-1.6-.5-1.2-1.3-1.6-1.3-1.6-1-0.6.1-0.6.1-0.6 1.2.1 1.9 1.2 1.9 1.2 1 1.8 2.6 1.3 3.3 1 .1-.7.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.7a4.5 4.5 0 0 1 1.2-3.2c-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2a4.5 4.5 0 0 1 1.2 3.2c0 4.4-2.8 5.4-5.5 5.7.5.4.9 1.1.9 2.2v3.3c0 .3.2.6.8.5A12 12 0 0 0 12 .3"/>
+                        </svg>
+                    </a>
+                </li>
+                <!-- LinkedIn -->
+                <li>
+                    <a href="https://www.linkedin.com/in/surbhi-verma-a63881295/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg class="w-6 h-6 fill-white hover:fill-gray-400 transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M4.5 3a2.5 2.5 0 0 0 0 5 2.5 2.5 0 0 0 0-5zm-.1 5.8h2.9V21H4.4V8.8zm5.7 0H13v1.7c.7-1.2 2.3-2.1 3.8-2.1 4 0 4.7 2.6 4.7 6V21h-2.9v-5.7c0-1.3 0-3-2-3s-2.3 1.5-2.3 3V21h-2.9V8.8z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </main>
+    </footer>
+</body>
+</html>
